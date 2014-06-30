@@ -1,0 +1,132 @@
+
+body { 
+  padding: 0;
+  margin: 0;
+  /*font-family: 'Quicksand', sans-serif;*/
+}
+
+#container {
+  margin: 0 auto;
+  width: 1150px;
+  height: 800px;
+  background-color: black;
+}
+
+#bg1 { 
+  height: 800px;  
+  background: url('../images/hh.jpg') center; 
+}
+
+#bg2 { 
+  height: 800px;  
+  background: url('../images/nyc.jpg') center; 
+}
+
+#bg1-circle {
+  background-color: black;
+  color: white;
+}
+
+#bg2-circle {
+  background-color: white;
+}
+
+.circle {  
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: -60px auto 0;
+}
+
+ p.circle-text {
+  width: 200px;
+  display: inline-block; 
+  text-align: center;
+  margin: 90px 0 0 50px;
+  font-size: 26px;  
+}
+
+ p.circle-text-medium {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  margin: 60px 0 0 25px;  
+}
+
+.circles { 
+  margin: 0 auto; 
+}
+
+.circle-small {  
+  width: 150px;
+  height: 150px;
+  border-radius: 100%; 
+  background-color: rgba(255,0,0,0.95);
+  display: inline-block; 
+}
+
+.circle1 {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 250px;
+}
+
+.circle2 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.circle3 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.circle4 {
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 750px;
+}
+
+.text-big {
+  font-size: 30px;
+  font-weight: bold;    
+}
+
+.text-medium {
+  font-size: 24px;
+  color: white;
+}
+
+.text-small {
+  font-size: 16px;  
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.information-block{
+  height: 15em;
+  background-color: beige;
+  margin: 25px 0;
+  padding: 10px;
+}
+
