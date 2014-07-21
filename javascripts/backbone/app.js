@@ -83,9 +83,9 @@ $(function(){
   $("#bg1").delay(2000).fadeOut(3000);
   $("#bg2").delay(5000).fadeIn(3000);
   $("#circle1").delay(5000).fadeIn(2000);
-  $("#circle3").delay(6000).fadeIn(2000);
-  $("#circle4").delay(7000).fadeIn(2000);
-  $("#circle2").delay(8000).fadeIn(2000);
+  $("#circle2").delay(6000).fadeIn(2000);
+  $("#circle3").delay(7000).fadeIn(2000);
+  $("#circle4").delay(8000).fadeIn(2000);
   
 })
 
