@@ -154,9 +154,10 @@ p.circle-small-text {
     margin-left: 30%;
   }
 
-  #circle2 { 
-    clear: both;   
-    margin-right: 30%;
+  #circle2, #circle4 { 
+    clear: both;
+    float: left;
+    margin-left: 30%;    
   }
 
   #circle2, #circle3, #circle4 {
