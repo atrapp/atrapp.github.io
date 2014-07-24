@@ -31,9 +31,28 @@ div.navbar-header a.navbar-brand:hover{
 body {
   padding: 0;
   margin: 0;
-  padding-top: 70px;
+  padding-top: 70px; 
   /* font-family: 'Hind', sans-serif;*/
   /* font-family: 'Quicksand', sans-serif;*/
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-right: 10px;
+}
+
+h2 {
+  margin: 20px 0 30px 0;
+}
+
+h5 {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #wrapper {
@@ -42,12 +61,14 @@ body {
 
 #bg1 {   
   height: 800px;  
-  background: url('../images/hh.jpg') center; 
+  background: url('../images/hh.jpg') center; /* minimize picture!!! */
+  background-size: cover;
 }
 
 #bg2 { 
   height: 800px;  
-  background: url('../images/nyc.jpg') center; 
+  background: url('../images/nyc.jpg') center; /* minimize picture!!! */
+  background-size: cover;
 }
 
 #bg1-circle {
@@ -65,7 +86,6 @@ body {
   height: 300px;
   border-radius: 100%;  
   margin: -100px auto 0;
-
 }
 
  p.circle-text {
@@ -117,6 +137,11 @@ p.circle-small-text {
   margin-right: 30%;
 }
 
+.handwrite {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20px;
+}
+
 .text-big {
   font-size: 30px;
   font-weight: bold;    
@@ -130,9 +155,13 @@ p.circle-small-text {
   font-size: 16px;  
 }
 
-.information-block {
-  background-color: beige;
-  margin: 40px 0;
+.text-xsmall {
+  font-size: 14px;
+}
+
+.information-block {  
+  background: url("../images/halftone.png");
+  margin: 80px 0;
   padding: 40px;
   font-family: 'Hind', sans-serif;
 }
@@ -142,27 +171,119 @@ p.circle-small-text {
   font-size: 16px;
 }
 
-img {
+/******************************/
+/*****   Resume Styling   *****/
+
+#resume-left {
+  float: left; 
+  width: 50%;
+  min-width: 300px;
+  margin-right: 20px;
+  /*background: url("../images/notebook.png"); */
+  /*background: rgba(255,0,0,0.1);*/
+}
+
+#resume-right {
+  float: right; 
+  width: 45%; 
+  min-width: 300px;
+  /*background: url("../images/notebook.png"); */
+  /*background: rgba(255,0,0,0.1);*/
+}
+
+article {
+  margin: 30px 0;
+  padding: 30px 10px 30px 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /*background: url("../images/notebook.png"); */
+  /*background: rgba(255,0,0,0.1);*/
+  background-color: white;
+  /*background: rgba(255,255,255,0.9);*/
+}
+
+p.resume-date { 
+  margin: 0;
+  padding: 0;
+  font-size: 14px !important;  
+}
+
+p.resume-company { 
+  font-weight: bold;  
+}
+
+p.resume-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.resume-tasks {
+  padding: 10px; 
+  /*background: url("../images/notebook.png"); */
+}
+
+/*img.resume-pic {
+  float: right;
+  width: 160px;
+  margin: 0 20px 20px 20px;
+}
+
+div.resume-pic img {
+  width: 100%;
+}*/
+
+p.resume-title-skills {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.webdevcol {
+  width: 150px;
+  float: left;
+  font-size: 16px;
+}
+
+div.addskillscol {
+  width: 220px;
+  float: left;
+  font-size: 16px;
+}
+
+div.languages {
+  font-size: 16px;
+}
+
+img.media-object {
+  width: 160px;  
+  margin: 0 20px 20px 20px;
+}
+
+
+/*****   end Resume Styling   *****/
+/**********************************/
+
+#coffeepic {
+  float: right;
+  width: 300px;
+}
+
+#headshot {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-
-table td {
+table.contact td {
   width: 100px;
   line-height: 30px;
   font-size: 16px;  
 }
 
-.clear {
-  clear: both;
+.footer {
+  margin: 50px 40px;
 }
 
-.footer { 
-  clear: both;
-  margin: 50px 40px 25px 40px;
-}
 
 @media (max-width: 767px) {
   
@@ -180,6 +301,32 @@ table td {
     margin-top: 3%;
   }
 
+  #resume-right {
+    float: left;
+  }
+
+  p.resume-tasks {
+    clear: both !important;  
+  }
+
+/*  img.resume-pic {
+    float: left;
+    width: 200px;
+    margin: 20px 10px;
+  }*/
+
+  img.media-object {
+    width: 260px;
+    margin: 20px;  
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  #coffeepic {
+    display: none;
+  }
 }
 
 
