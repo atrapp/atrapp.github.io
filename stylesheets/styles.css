@@ -254,6 +254,10 @@ div.languages {
   font-size: 16px;
 }
 
+div.certificates {
+  font-size: 16px;
+}
+
 img.media-object {
   width: 160px;  
   margin: 0 20px 20px 20px;
