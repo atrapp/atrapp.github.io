@@ -32,8 +32,8 @@ body {
   padding: 0;
   margin: 0;
   padding-top: 70px; 
-  /* font-family: 'Hind', sans-serif;*/
-  /* font-family: 'Quicksand', sans-serif;*/
+   /*font-family: 'Hind', sans-serif;*/
+   /*font-family: 'Quicksand', sans-serif;*/
 }
 
 h2 {
@@ -195,6 +195,10 @@ p.circle-small-text {
 
 /******************************/
 /*****   Resume Styling   *****/
+
+#resume-download img {
+  width: 64px;
+}
 
 #resume-block {
   background: url("../images/ravenna.png");
