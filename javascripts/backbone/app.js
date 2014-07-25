@@ -87,102 +87,102 @@ $(function(){
   $("#circle3").delay(7000).fadeIn(2000);
   $("#circle4").delay(8000).fadeIn(2000);
 
-  $("#firstless").hide();
+  $("#firsthide").hide();
   $(".firsttext").hide();
 
-  $("#firstmore").click(function(){
+  $("#firstshow").click(function(){
     $(".firsttext").slideToggle();
-    $("#firstless").show();
-    $("#firstmore").hide();
+    $("#firsthide").show();
+    $("#firstshow").hide();
   });
-  $("#firstless").click(function(){
+  $("#firsthide").click(function(){
     $(".firsttext").slideToggle();
-    $("#firstless").hide();
-    $("#firstmore").show();
+    $("#firsthide").hide();
+    $("#firstshow").show();
   });
 
-  $("#secondless").hide();
+  $("#secondhide").hide();
   $(".secondtext").hide();
 
-  $("#secondmore").click(function(){
+  $("#secondshow").click(function(){
     $(".secondtext").slideToggle();
-    $("#secondless").show();
-    $("#secondmore").hide();
+    $("#secondhide").show();
+    $("#secondshow").hide();
   });
-  $("#secondless").click(function(){
+  $("#secondhide").click(function(){
     $(".secondtext").slideToggle();
-    $("#secondless").hide();
-    $("#secondmore").show();
+    $("#secondhide").hide();
+    $("#secondshow").show();
   });
 
-  $("#thirdless").hide();
+  $("#thirdhide").hide();
   $(".thirdtext").hide();
 
-  $("#thirdmore").click(function(){
+  $("#thirdshow").click(function(){
     $(".thirdtext").slideToggle();
-    $("#thirdless").show();
-    $("#thirdmore").hide();
+    $("#thirdhide").show();
+    $("#thirdshow").hide();
   });
-  $("#thirdless").click(function(){
+  $("#thirdhide").click(function(){
     $(".thirdtext").slideToggle();
-    $("#thirdless").hide();
-    $("#thirdmore").show();
+    $("#thirdhide").hide();
+    $("#thirdshow").show();
   });
 
-  $("#fourthless").hide();
+  $("#fourthhide").hide();
   $(".fourthtext").hide();
 
-  $("#fourthmore").click(function(){
+  $("#fourthshow").click(function(){
     $(".fourthtext").slideToggle();
-    $("#fourthless").show();
-    $("#fourthmore").hide();
+    $("#fourthhide").show();
+    $("#fourthshow").hide();
   });
-  $("#fourthless").click(function(){
+  $("#fourthhide").click(function(){
     $(".fourthtext").slideToggle();
-    $("#fourthless").hide();
-    $("#fourthmore").show();
+    $("#fourthhide").hide();
+    $("#fourthshow").show();
   });
 
-  $("#fifthless").hide();
+  $("#fifthhide").hide();
   $(".fifthtext").hide();
 
-  $("#fifthmore").click(function(){
+  $("#fifthshow").click(function(){
     $(".fifthtext").slideToggle();
-    $("#fifthless").show();
-    $("#fifthmore").hide();
+    $("#fifthhide").show();
+    $("#fifthshow").hide();
   });
-  $("#fifthless").click(function(){
+  $("#fifthhide").click(function(){
     $(".fifthtext").slideToggle();
-    $("#fifthless").hide();
-    $("#fifthmore").show();
+    $("#fifthhide").hide();
+    $("#fifthshow").show();
   });
 
-  $("#sixthless").hide();
+  $("#sixthhide").hide();
   $(".sixthtext").hide();
 
-  $("#sixthmore").click(function(){
+  $("#sixthshow").click(function(){
     $(".sixthtext").slideToggle();
-    $("#sixthless").show();
-    $("#sixthmore").hide();
+    $("#sixthhide").show();
+    $("#sixthshow").hide();
   });
-  $("#sixthless").click(function(){
+  $("#sixthhide").click(function(){
     $(".sixthtext").slideToggle();
-    $("#sixthless").hide();
-    $("#sixthmore").show();
+    $("#sixthhide").hide();
+    $("#sixthshow").show();
   });
 
-  $("#seventhless").hide();
+  $("#seventhhide").hide();
   $(".seventhtext").hide();
 
-  $("#seventhmore").click(function(){
+  $("#seventhshow").click(function(){
     $(".seventhtext").slideToggle();
-    $("#seventhless").show();
-    $("#seventhmore").hide();
+    $("#seventhhide").show();
+    $("#seventhshow").hide();
   });
-  $("#seventhless").click(function(){
+  $("#seventhhide").click(function(){
     $(".seventhtext").slideToggle();
-    $("#seventhless").hide();
-    $("#seventhmore").show();
+    $("#seventhhide").hide();
+    $("#seventhshow").show();
   });
 
   $("#webdevhide").hide();
@@ -241,46 +241,46 @@ $(function(){
     $("#languagesshow").show();
   });
 
-  $("#faircardsless").hide();
+  $("#faircardshide").hide();
   $(".faircardstext").hide();
 
-  $("#faircardsmore").click(function(){
+  $("#faircardsshow").click(function(){
     $(".faircardstext").slideToggle();
-    $("#faircardsless").show();
-    $("#faircardsmore").hide();
+    $("#faircardshide").show();
+    $("#faircardsshow").hide();
   });
-  $("#faircardsless").click(function(){
+  $("#faircardshide").click(function(){
     $(".faircardstext").slideToggle();
-    $("#faircardsless").hide();
-    $("#faircardsmore").show();
+    $("#faircardshide").hide();
+    $("#faircardsshow").show();
   });
 
-  $("#volunteerless").hide();
+  $("#volunteerhide").hide();
   $(".volunteertext").hide();
 
-  $("#volunteermore").click(function(){
+  $("#volunteershow").click(function(){
     $(".volunteertext").slideToggle();
-    $("#volunteerless").show();
-    $("#volunteermore").hide();
+    $("#volunteerhide").show();
+    $("#volunteershow").hide();
   });
-  $("#volunteerless").click(function(){
+  $("#volunteerhide").click(function(){
     $(".volunteertext").slideToggle();
-    $("#volunteerless").hide();
-    $("#volunteermore").show();
+    $("#volunteerhide").hide();
+    $("#volunteershow").show();
   });
 
-  $("#studyless").hide();
+  $("#studyhide").hide();
   $(".studytext").hide();
 
-  $("#studymore").click(function(){
+  $("#studyshow").click(function(){
     $(".studytext").slideToggle();
-    $("#studyless").show();
-    $("#studymore").hide();
+    $("#studyhide").show();
+    $("#studyshow").hide();
   });
-  $("#studyless").click(function(){
+  $("#studyhide").click(function(){
     $(".studytext").slideToggle();
-    $("#studyless").hide();
-    $("#studymore").show();
+    $("#studyhide").hide();
+    $("#studyshow").show();
   });
 
   $("#certificateshide").hide();

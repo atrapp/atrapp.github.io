@@ -25,7 +25,6 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
 
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +58,6 @@
           </div>
         </div>
       </div>
-
 
       <section id="intro-block">       
         
@@ -140,9 +138,48 @@
 
         <div id="projects-block" class="information-block" name="projects"> 
           <h2>Projects</h2>
-          <p>
-            coming soon
-          </p>
+      
+          <div id="carousel-projects" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-projects" data-slide-to="1"></li>
+              <li data-target="#carousel-projects" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              
+              <div class="item active">
+                <a href="http://wdi-project1-helpr.herokuapp.com/" target="_blank"><img src="images/project1.jpg" alt="Project 1"></a>
+                <div class="carousel-caption">
+                 <!--  Helpr! App -->
+                </div>
+              </div>
+              <div class="item">
+                <a href="http://shielded-reef-1881.herokuapp.com/" target="_blank"><img src="images/project2.jpg" alt="Project 2"></a>
+                <div class="carousel-caption">
+                  <!-- Business Card Organizer -->
+                </div>      
+              </div>
+              <div class="item">
+                <a href="http://sublime-packages-evaluator.herokuapp.com/" target="_blank"><img src="images/project3.jpg" alt="Project 3"></a>
+                <div class="carousel-caption">
+                  <!-- Sublime Packages Evaluator -->
+                </div>      
+              </div>
+           
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-projects" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-projects" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+
         </div>
 
         <div id="resume-block" class="information-block clearfix" name="resume"> 
@@ -156,7 +193,7 @@
               <i class="fa fa-image fa-2x right"></i>
               <p class="resume-date">April 2014 - July 2014</p>
               <p class="resume-company">General Assembly (New York City)</p>
-              <p class="resume-title">"Web Development Immersive Graduate"<span id="seventhmore" class="right text-xsmall">more...</span><span id="seventhless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Web Development Immersive Graduate"<span id="seventhshow" class="right text-xsmall">show...</span><span id="seventhhide" class="right text-xsmall">hide...</span></p>
               <div class="seventhtext clearfix">
                 <!-- <div><img src="images/ga_logo.png" class="resume-pic"></div> -->
                 <img class="media-object pull-right" src="images/protos.jpg" alt="General Assembly Logo">
@@ -170,7 +207,7 @@
              <!--  <i class="fa fa-thumb-tack fa-2x right"></i> -->
               <p class="resume-date">July 2010 - December 2013</p>
               <p class="resume-company">Self-employed (Hamburg, Germany)</p>
-              <p class="resume-title">"IT-Freelancer"<span id="sixthmore" class="right text-xsmall">more...</span><span id="sixthless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"IT-Freelancer"<span id="sixthshow" class="right text-xsmall">show...</span><span id="sixthhide" class="right text-xsmall">hide...</span></p>
               <div class="sixthtext">
                 <p class="resume-tasks">
                   Application development for Lufthansa Systems AS GmbH with Specialist focus on Microsoft SharePoint and Lotus Notes/Domino, hardware and software installations for various clients and computer training. 
@@ -182,7 +219,7 @@
               <i class="fa fa-image fa-2x right"></i>
               <p class="resume-date">January 2009 - December 2013</p>
               <p class="resume-company">w3mobil Lernprojekte (Norderstedt, Germany)</p>
-              <p class="resume-title">"Co-founder"<span id="fifthmore" class="right text-xsmall">more...</span><span id="fifthless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Co-founder"<span id="fifthshow" class="right text-xsmall">show...</span><span id="fifthhide" class="right text-xsmall">hide...</span></p>
               <div class="fifthtext clearfix">
                 <!-- <div><img src="images/project.jpg" class="resume-pic"></div> -->
                 <img class="media-object pull-right" src="images/project.jpg" alt="Students help Seniors">              
@@ -196,7 +233,7 @@
               <!-- <i class="fa fa-thumb-tack fa-2x right"></i> -->
               <p class="resume-date">April 2007 - June 2010</p>
               <p class="resume-company">Lufthansa Systems AS GmbH (Norderstedt, Germany)</p>
-              <p class="resume-title">"Technical Administration"<span id="fourthmore" class="right text-xsmall">more...</span><span id="fourthless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Technical Administration"<span id="fourthshow" class="right text-xsmall">show...</span><span id="fourthhide" class="right text-xsmall">hide...</span></p>
               <div class="fourthtext">
                 <p class="resume-tasks">
                   For the company's Technical Administration Department I established a SharePoint infrastructure to improve collaboration, developed a hardware and software ordering system and extended functionality of corporate HR systems with Lotus Notes/Domino.
@@ -208,7 +245,7 @@
               <!-- <i class="fa fa-thumb-tack fa-2x right"></i> -->
               <p class="resume-date">August 2002 - March 2007</p>
               <p class="resume-company">Condor Lebensversicherungs-Aktiengesellschaft<br />(Hamburg, Germany)</p>
-              <p class="resume-title">"Application Administrator"<span id="thirdmore" class="right text-xsmall">more...</span><span id="thirdless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Application Administrator"<span id="thirdshow" class="right text-xsmall">show...</span><span id="thirdhide" class="right text-xsmall">hide...</span></p>
               <div class="thirdtext">
                 <p class="resume-tasks">
                   My tasks included application development and system administration with Lotus Notes/Domino, in-house user support and first technical contact for Customer service and sales staff. As a project manager I was responsible for implementing an electronic resubmission system as well as launching a Blackberry infrastructure for the sales department.
@@ -220,7 +257,7 @@
               <!-- <i class="fa fa-thumb-tack fa-2x right"></i> -->
               <p class="resume-date">January 2001 - November 2001</p>
               <p class="resume-company">Nikotel Deutschland AG (Hamburg, Germany)</p>
-              <p class="resume-title">"System Integration Administrator"<span id="secondmore" class="right text-xsmall">more...</span><span id="secondless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"System Integration Administrator"<span id="secondshow" class="right text-xsmall">show...</span><span id="secondhide" class="right text-xsmall">hide...</span></p>
               <div class="secondtext">
                 <p class="resume-tasks">
                   Implementation of company's Lotus Notes/Domino infrastructure, installation and administration of a Windows 2000 domain network, migration of corporate mail system from Lotus Notes/Domino to Outlook/Exchange 2000. Period included company sponsored training for 6 months (evening and weekend classes) and resulted in certification as a "Microsoft Certified Systems Engineer on Windows 2000" (MCSE 2000).
@@ -232,7 +269,7 @@
               <!-- <i class="fa fa-thumb-tack fa-2x right"></i> -->
               <p class="resume-date">April 1998 - December 2000</p>
               <p class="resume-company">PPP Internetdienstleistungen GmbH (Hamburg, Germany)</p>
-              <p class="resume-title">"Development & Support Engineer"<span id="firstmore" class="right text-xsmall">more...</span><span id="firstless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Development & Support Engineer"<span id="firstshow" class="right text-xsmall">show...</span><span id="firsthide" class="right text-xsmall">hide...</span></p>
               <div class="firsttext">
                 <p class="resume-tasks firsttext">                
                   Primarily tasks included workflow research and technical development of systems with Lotus Notes/Domino to optimize all Customer Service related processes (e.g. help requests, orders, installation procedures) as well as first and second-level user support for installation and configuration of internet services.
@@ -348,7 +385,7 @@
               <i class="fa fa-image fa-2x right"></i>
               <p class="resume-date">since August 2012</p>
               <p class="resume-company">faircards (Norderstedt, Germany)</p>
-              <p class="resume-title">"Social Entrepreneur"<span id="faircardsmore" class="right text-xsmall">more...</span><span id="faircardsless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Social Entrepreneur"<span id="faircardsshow" class="right text-xsmall">show...</span><span id="faircardshide" class="right text-xsmall">hide...</span></p>
               <div class="faircardstext clearfix">            
                 <!-- <div><img src="images/faircards.jpg" class="resume-pic"></div>   -->
                 <img class="media-object pull-right" src="images/faircards.jpg" alt="Cards from Africa">       
@@ -362,7 +399,7 @@
               <i class="fa fa-image fa-2x right"></i>
               <p class="resume-date">September 2012 – December 2013</p>
               <p class="resume-company">Eine Welt für Alle e.V. (Germany)</p>
-              <p class="resume-title">"Volunteering"<span id="volunteermore" class="right text-xsmall">more...</span><span id="volunteerless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Volunteering"<span id="volunteershow" class="right text-xsmall">show...</span><span id="volunteerhide" class="right text-xsmall">hide...</span></p>
               <div class="volunteertext clearfix">        
                 <img class="media-object pull-right" src="images/weltladen.jpg" alt="Weltladen Norderstedt">
                 <p class="resume-tasks"> 
@@ -377,7 +414,7 @@
               <i class="fa fa-image fa-2x right"></i>
               <p class="resume-date">1992 - 1998</p>
               <p class="resume-company">FH Wedel - University of Applied Sciences (Germany)</p>
-              <p class="resume-title">"Business Informatics Graduate"<span id="studymore" class="right text-xsmall">more...</span><span id="studyless" class="right text-xsmall">less...</span></p>
+              <p class="resume-title">"Business Informatics Graduate"<span id="studyshow" class="right text-xsmall">show...</span><span id="studyhide" class="right text-xsmall">hide...</span></p>
               <div class="studytext clearfix">        
                 <img class="media-object pull-right" src="images/fhwedel.jpg" alt="FH Wedel">
                 <p class="resume-tasks"> 
@@ -402,7 +439,6 @@ Microsoft Windows 2000</li>
 
           </div>         
         </div>
-
 
         <div id="contact-block" class="information-block clearfix" name="contact"> 
           <h2>Contact</h2>
