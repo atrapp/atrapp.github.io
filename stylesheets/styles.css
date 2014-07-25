@@ -142,9 +142,10 @@ p.circle-small-text {
   margin-right: 10px;
 }
 
-.handwrite {
+p.handwrite {
   font-family: 'Calligraffitti', cursive;
-  font-size: 20px;
+  font-size: 30px !important;
+  margin-top: 30px;
 }
 
 .text-big {
@@ -180,9 +181,12 @@ p.circle-small-text {
 /********************************/
 /*****   Projects Styling   *****/
 
-.carousel {
+#projects-block {
   background-color: black;
-  padding: 10px;
+}
+
+#projects-block h2 {
+  color: white;
 }
 
 .carousel-inner {
@@ -222,6 +226,12 @@ article {
   padding: 30px 10px 30px 10px;
   background: url("../images/paper.png");
   box-shadow: 10px 10px 15px #888888; 
+}
+
+article span {
+  background: rgba(255,0,0,0.2);
+  padding: 10px;
+  border-radius: 100%;
 }
 
 p.resume-date { 
@@ -284,12 +294,16 @@ img.media-object {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+  /*box-shadow: 10px 10px 15px #888888; */
+}
+table.contact {
+  margin-left: 10px;
 }
 
 table.contact td {
   width: 100px;
   line-height: 30px;
-  font-size: 16px;  
+  font-size: 16px;
 }
 
 .footer {
