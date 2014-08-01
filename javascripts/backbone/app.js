@@ -87,8 +87,7 @@ $(function(){
   $("#circle3").delay(7000).fadeIn(2000);
   $("#circle4").delay(8000).fadeIn(2000);
 
-  $("#firsthide").hide();
-  $(".firsttext").hide();
+  $("#firstshow").hide();  
 
   $("#firstshow").click(function(){
     $(".firsttext").slideToggle();
@@ -101,9 +100,8 @@ $(function(){
     $("#firstshow").show();
   });
 
-  $("#secondhide").hide();
-  $(".secondtext").hide();
-
+  $("#secondshow").hide();
+  
   $("#secondshow").click(function(){
     $(".secondtext").slideToggle();
     $("#secondhide").show();
@@ -115,9 +113,8 @@ $(function(){
     $("#secondshow").show();
   });
 
-  $("#thirdhide").hide();
-  $(".thirdtext").hide();
-
+  $("#thirdshow").hide();
+  
   $("#thirdshow").click(function(){
     $(".thirdtext").slideToggle();
     $("#thirdhide").show();
@@ -129,10 +126,9 @@ $(function(){
     $("#thirdshow").show();
   });
 
-  $("#fourthhide").hide();
-  $(".fourthtext").hide();
-
-  $("#fourthshow").click(function(){
+  $("#fourthshow").hide();
+  
+    $("#fourthshow").click(function(){
     $(".fourthtext").slideToggle();
     $("#fourthhide").show();
     $("#fourthshow").hide();
@@ -143,9 +139,8 @@ $(function(){
     $("#fourthshow").show();
   });
 
-  $("#fifthhide").hide();
-  $(".fifthtext").hide();
-
+  $("#fifthshow").hide();
+  
   $("#fifthshow").click(function(){
     $(".fifthtext").slideToggle();
     $("#fifthhide").show();
@@ -157,9 +152,8 @@ $(function(){
     $("#fifthshow").show();
   });
 
-  $("#sixthhide").hide();
-  $(".sixthtext").hide();
-
+  $("#sixthshow").hide();
+ 
   $("#sixthshow").click(function(){
     $(".sixthtext").slideToggle();
     $("#sixthhide").show();
@@ -171,9 +165,8 @@ $(function(){
     $("#sixthshow").show();
   });
 
-  $("#seventhhide").hide();
-  $(".seventhtext").hide();
-
+  $("#seventhshow").hide();
+  
   $("#seventhshow").click(function(){
     $(".seventhtext").slideToggle();
     $("#seventhhide").show();
@@ -185,9 +178,8 @@ $(function(){
     $("#seventhshow").show();
   });
 
-  $("#webdevhide").hide();
-  $(".webdev").hide();
-
+  $("#webdevshow").hide();
+  
   $("#webdevshow").click(function(){
     $(".webdev").slideToggle();
     $("#webdevhide").show();
@@ -199,9 +191,8 @@ $(function(){
     $("#webdevshow").show();
   });
 
-  $("#addskillshide").hide();
-  $(".addskills").hide();
-
+  $("#addskillsshow").hide();
+ 
   $("#addskillsshow").click(function(){
     $(".addskills").slideToggle();
     $("#addskillshide").show();
@@ -213,9 +204,8 @@ $(function(){
     $("#addskillsshow").show();
   });
 
-  $("#interestshide").hide();
-  $(".interests").hide();
-
+  $("#interestsshow").hide();
+ 
   $("#interestsshow").click(function(){
     $(".interests").slideToggle();
     $("#interestshide").show();
@@ -227,9 +217,8 @@ $(function(){
     $("#interestsshow").show();
   });
 
-  $("#languageshide").hide();
-  $(".languages").hide();
-
+  $("#languagesshow").hide();
+ 
   $("#languagesshow").click(function(){
     $(".languages").slideToggle();
     $("#languageshide").show();
@@ -241,9 +230,8 @@ $(function(){
     $("#languagesshow").show();
   });
 
-  $("#faircardshide").hide();
-  $(".faircardstext").hide();
-
+  $("#faircardsshow").hide();
+ 
   $("#faircardsshow").click(function(){
     $(".faircardstext").slideToggle();
     $("#faircardshide").show();
@@ -255,9 +243,8 @@ $(function(){
     $("#faircardsshow").show();
   });
 
-  $("#volunteerhide").hide();
-  $(".volunteertext").hide();
-
+  $("#volunteershow").hide();
+ 
   $("#volunteershow").click(function(){
     $(".volunteertext").slideToggle();
     $("#volunteerhide").show();
@@ -269,9 +256,8 @@ $(function(){
     $("#volunteershow").show();
   });
 
-  $("#studyhide").hide();
-  $(".studytext").hide();
-
+  $("#studyshow").hide();
+  
   $("#studyshow").click(function(){
     $(".studytext").slideToggle();
     $("#studyhide").show();
@@ -283,9 +269,8 @@ $(function(){
     $("#studyshow").show();
   });
 
-  $("#certificateshide").hide();
-  $(".certificates").hide();
-
+  $("#certificatesshow").hide();
+  
   $("#certificatesshow").click(function(){
     $(".certificates").slideToggle();
     $("#certificateshide").show();
