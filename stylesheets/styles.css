@@ -25,6 +25,17 @@ div.navbar-header a.navbar-brand:hover{
   color: white;
 }
 
+.carousel-caption {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.carousel-caption p {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
 /*****   end Bootstrap Styling   *****/
 /*************************************/
 
