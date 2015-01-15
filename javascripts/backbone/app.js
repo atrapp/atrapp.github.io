@@ -78,8 +78,8 @@ $(function(){
   $("#circle3").hide();
   $("#circle4").hide();  
   $("#bg2").hide();
-  $("#bg1-circle-text").hide();   
-  $("#bg1-circle-text").delay(1000).fadeIn(1000); 
+  $("#text-under").hide();   
+  $("#text-under").delay(1000).fadeIn(1000); 
   $("#bg1").delay(2000).fadeOut(3000);
   $("#bg2").delay(5000).fadeIn(3000);
   $("#circle1").delay(5000).fadeIn(2000);
