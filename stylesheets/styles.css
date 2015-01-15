@@ -146,6 +146,12 @@ p.circle-small-text {
   margin-right: 30%;
 }
 
+#text-under {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+}
+
 .left {
   float: left;
 }
@@ -171,7 +177,8 @@ p.handwrite {
 }
 
 .text-small {
-  font-size: 16px;  
+  font-size: 20px;  
+  font-family: 'Permanent Marker', cursive;
 }
 
 .text-xsmall {
