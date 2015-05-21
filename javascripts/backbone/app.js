@@ -1,15 +1,15 @@
 var App = {
   Router: null,
-  initialize: function(){   
-    this.router = new App.Router();   
+  initialize: function(){
+    this.router = new App.Router();
     Backbone.history.start();
   }
 }
 
 App.Router = Backbone.Router.extend({
- 
+
   routes : {
-    ''          : 'intro', 
+    ''          : 'intro',
     'home'      : 'home',
     'about'     : 'about',
     'projects'  : 'projects',
@@ -17,45 +17,45 @@ App.Router = Backbone.Router.extend({
     'contact'   : 'contact'
   },
 
-  intro: function(){  
+  intro: function(){
       removeActiveClass();
-      $(".intro-menu").addClass("active");   
-      // scrollToAnchor('intro');  
+      $(".intro-menu").addClass("active");
+      // scrollToAnchor('intro');
       $("html, body").animate({ scrollTop: 0 }, "slow");
   },
 
-  home: function(){  
+  home: function(){
       removeActiveClass();
-      $(".home-menu").addClass("active");   
-      scrollToAnchor('intro');   
+      $(".home-menu").addClass("active");
+      scrollToAnchor('intro');
   },
 
-  about: function(){   
+  about: function(){
       removeActiveClass();
-      $(".about-menu").addClass("active");   
-      scrollToAnchor('about');  
+      $(".about-menu").addClass("active");
+      scrollToAnchor('about');
   },
 
-  projects: function(){   
+  projects: function(){
       removeActiveClass();
-      $(".projects-menu").addClass("active");   
-      scrollToAnchor('projects');   
+      $(".projects-menu").addClass("active");
+      scrollToAnchor('projects');
   },
 
-  resume: function(){   
+  resume: function(){
       removeActiveClass();
-      $(".resume-menu").addClass("active");   
-      scrollToAnchor('resume');    
+      $(".resume-menu").addClass("active");
+      scrollToAnchor('resume');
   },
 
-  contact: function(){  
+  contact: function(){
       removeActiveClass();
-      $(".contact-menu").addClass("active");   
-      scrollToAnchor('contact');   
+      $(".contact-menu").addClass("active");
+      scrollToAnchor('contact');
   }
 
 })
- 
+
 function removeActiveClass(){
   $(".home-menu").removeClass("active");
   $(".about-menu").removeClass("active");
@@ -64,9 +64,9 @@ function removeActiveClass(){
   $(".contact-menu").removeClass("active");
 }
 
-function scrollToAnchor(anchor){  
+function scrollToAnchor(anchor){
   var aTag = $("#"+ anchor +"-block");
-  $('html,body').animate({scrollTop: aTag.offset().top},'slow');   
+  $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 
 
@@ -76,10 +76,10 @@ $(function(){
   $("#circle1").hide();
   $("#circle2").hide();
   $("#circle3").hide();
-  $("#circle4").hide();  
+  $("#circle4").hide();
   $("#bg2").hide();
-  $("#text-under").hide();   
-  $("#text-under").delay(1000).fadeIn(1000); 
+  $("#text-under").hide();
+  $("#text-under").delay(1000).fadeIn(1000);
   $("#bg1").delay(2000).fadeOut(3000);
   $("#bg2").delay(5000).fadeIn(3000);
   $("#circle1").delay(5000).fadeIn(2000);
@@ -87,7 +87,7 @@ $(function(){
   $("#circle3").delay(7000).fadeIn(2000);
   $("#circle4").delay(8000).fadeIn(2000);
 
-  $("#firstshow").hide();  
+  $("#firstshow").hide();
 
   $("#firstshow").click(function(){
     $(".firsttext").slideToggle();
@@ -101,7 +101,7 @@ $(function(){
   });
 
   $("#secondshow").hide();
-  
+
   $("#secondshow").click(function(){
     $(".secondtext").slideToggle();
     $("#secondhide").show();
@@ -114,7 +114,7 @@ $(function(){
   });
 
   $("#thirdshow").hide();
-  
+
   $("#thirdshow").click(function(){
     $(".thirdtext").slideToggle();
     $("#thirdhide").show();
@@ -127,7 +127,7 @@ $(function(){
   });
 
   $("#fourthshow").hide();
-  
+
     $("#fourthshow").click(function(){
     $(".fourthtext").slideToggle();
     $("#fourthhide").show();
@@ -140,7 +140,7 @@ $(function(){
   });
 
   $("#fifthshow").hide();
-  
+
   $("#fifthshow").click(function(){
     $(".fifthtext").slideToggle();
     $("#fifthhide").show();
@@ -153,7 +153,7 @@ $(function(){
   });
 
   $("#sixthshow").hide();
- 
+
   $("#sixthshow").click(function(){
     $(".sixthtext").slideToggle();
     $("#sixthhide").show();
@@ -165,21 +165,8 @@ $(function(){
     $("#sixthshow").show();
   });
 
-  $("#seventhshow").hide();
-  
-  $("#seventhshow").click(function(){
-    $(".seventhtext").slideToggle();
-    $("#seventhhide").show();
-    $("#seventhshow").hide();
-  });
-  $("#seventhhide").click(function(){
-    $(".seventhtext").slideToggle();
-    $("#seventhhide").hide();
-    $("#seventhshow").show();
-  });
-
   $("#webdevshow").hide();
-  
+
   $("#webdevshow").click(function(){
     $(".webdev").slideToggle();
     $("#webdevhide").show();
@@ -192,7 +179,7 @@ $(function(){
   });
 
   $("#addskillsshow").hide();
- 
+
   $("#addskillsshow").click(function(){
     $(".addskills").slideToggle();
     $("#addskillshide").show();
@@ -205,7 +192,7 @@ $(function(){
   });
 
   $("#interestsshow").hide();
- 
+
   $("#interestsshow").click(function(){
     $(".interests").slideToggle();
     $("#interestshide").show();
@@ -218,7 +205,7 @@ $(function(){
   });
 
   $("#languagesshow").hide();
- 
+
   $("#languagesshow").click(function(){
     $(".languages").slideToggle();
     $("#languageshide").show();
@@ -231,7 +218,7 @@ $(function(){
   });
 
   $("#faircardsshow").hide();
- 
+
   $("#faircardsshow").click(function(){
     $(".faircardstext").slideToggle();
     $("#faircardshide").show();
@@ -244,7 +231,7 @@ $(function(){
   });
 
   $("#volunteershow").hide();
- 
+
   $("#volunteershow").click(function(){
     $(".volunteertext").slideToggle();
     $("#volunteerhide").show();
@@ -256,21 +243,47 @@ $(function(){
     $("#volunteershow").show();
   });
 
-  $("#studyshow").hide();
-  
-  $("#studyshow").click(function(){
-    $(".studytext").slideToggle();
-    $("#studyhide").show();
-    $("#studyshow").hide();
+  $("#firststudyshow").hide();
+
+  $("#firststudyshow").click(function(){
+    $(".firststudytext").slideToggle();
+    $("#firststudyhide").show();
+    $("#firststudyshow").hide();
   });
-  $("#studyhide").click(function(){
-    $(".studytext").slideToggle();
-    $("#studyhide").hide();
-    $("#studyshow").show();
+  $("#firststudyhide").click(function(){
+    $(".firststudytext").slideToggle();
+    $("#firststudyhide").hide();
+    $("#firststudyshow").show();
+  });
+
+  $("#secondstudyshow").hide();
+
+  $("#secondstudyshow").click(function(){
+    $(".secondstudytext").slideToggle();
+    $("#secondstudyhide").show();
+    $("#secondstudyshow").hide();
+  });
+  $("#secondstudyhide").click(function(){
+    $(".secondstudytext").slideToggle();
+    $("#secondstudyhide").hide();
+    $("#secondstudyshow").show();
+  });
+
+  $("#thirdstudyshow").hide();
+
+  $("#thirdstudyshow").click(function(){
+    $(".thirdstudytext").slideToggle();
+    $("#thirdstudyhide").show();
+    $("#thirdstudyshow").hide();
+  });
+  $("#thirdstudyhide").click(function(){
+    $(".thirdstudytext").slideToggle();
+    $("#thirdstudyhide").hide();
+    $("#thirdstudyshow").show();
   });
 
   $("#certificatesshow").hide();
-  
+
   $("#certificatesshow").click(function(){
     $(".certificates").slideToggle();
     $("#certificateshide").show();
